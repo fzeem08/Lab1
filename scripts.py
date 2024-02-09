@@ -1,13 +1,8 @@
 # Lab1/script.py
 
 def calculate_age():
-    try:
-        birth_year = int(input("Enter your birth year: "))
-    except ValueError:
-        print("Please enter an integer for the birth year.")
-        return
-
-    current_year = 2024
+    birth_year = int(input("Enter your birth year: "))
+    current_year = 2024  # You can update this to the current year
     age = current_year - birth_year
     return age
 
