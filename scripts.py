@@ -6,5 +6,9 @@ def calculate_age(22):
     age = current_year - birth_year
     return age
 
+def helloWorld():
+    print('Hello World')
+
 # Test the function
 print("Your age is:", calculate_age())
+helloWorld()
